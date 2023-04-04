@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Галерея</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  @import "css/main.css";
+  @import "css/gallery.css";
+  </style>
+</head>
+<body>
+
+<script src="js/external.js"></script>
+<script src="js/gallery.js"></script>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="index.html">Главная</a>
+  <a href="gallery.html">Галерея</a>
+  <a href="team.html">Моя команда</a>
+  <a href="https://steamcommunity.com/id/ringo2018" target="_blank">Steam профиль</a>
+</div>
+
+<div id="main">
+  <span onclick="openNav()"><menu>☰ Меню</menu></span>
+</div>
+
+<h1>Галерея<br>(рандомные скриншоты)</h1>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade" style="display: block">
+  <div class="numbertext">1 / 5</div>
+  <img src="img/1.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <img src="img/2.jpg" style="width:100%">
+  <div class="text">Бархатные бусы на антимага</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img src="img/3.jpg" style="width:100%">
+  <div class="text">Help!!!</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <img src="img/4.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 5</div>
+  <img src="img/5.jpg" style="width:100%">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>  
+</div>
+
+</body>
+</html>
